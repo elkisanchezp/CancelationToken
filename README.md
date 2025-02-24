@@ -1,12 +1,35 @@
-🚀 CancellationToken en .NET Core
-dotnet test
+# CancellationToken Project
 
-📜 Licencia
+Este proyecto demuestra el uso de `CancellationToken` en .NET para manejar la cancelación de tareas.
 
-Este proyecto está licenciado bajo la licencia MIT. Puedes usarlo, modificarlo y distribuirlo libremente.
+## 🛠️ Requisitos
+- .NET Core 8.0
+- Visual Studio 2022 o superior
 
-🤝 Contribuciones
+## 🚀 Ejecución del Proyecto
+1. Clonar el repositorio:
+```bash
+git clone https://github.com/elkisanchezp/CancelationToken.git
+```
+2. Navegar al directorio del proyecto:
+```bash
+cd ExampleCancelationToken
+```
+3. Restaurar paquetes y ejecutar:
+```bash
+dotnet restore
+dotnet run
+```
 
-¡Las contribuciones son bienvenidas! Si deseas mejorar el proyecto, crea un Pull Request o abre un Issue.
+## 📄 Importante
+En este ejemplo, el tiempo de respuesta del método es de 10 segundos, simulando una consulta pesada
 
-Autor: Elkin SánchezRepositorio: GitHubFecha: Agosto 2024
+```csharp
+ public async Task<IEnumerable<User>> GetAllUsersAsync(CancellationToken cancellationToken)
+ {
+     // Simulation
+     await Task.Delay(10000, cancellationToken);
+     return await _context.Users.ToListAsync(cancellationToken);
+ }
+```
+
