@@ -1,0 +1,21 @@
+﻿@model IEnumerable<ExampleCancelationToken.Application.DTOs.UserDto>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Username</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Id</td>
+                <td>@user.Name</td>
+                <td>@user.LastName</td>
+            </tr>
+        }
+    </tbody>
+</table>

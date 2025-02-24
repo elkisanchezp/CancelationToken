@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1- Presentation", "1- Presentation", "{2545CFD1-5547-4AA3-A6F1-16D2EBB0058D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2- Application", "2- Application", "{A9B8CF04-F693-4505-A495-A142BD71F53C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3- Domain", "3- Domain", "{CA58F3D5-14FB-4E8C-A978-0B363A07AE0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4- Infraextructure", "4- Infraextructure", "{370C2D8A-2173-4174-AA34-EB89ABB65863}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{95E4AC06-0931-4E07-96AB-49F04473DB69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUI", "WebUI\WebUI.csproj", "{7CDD2701-6597-4080-AE94-286FDBC8D056}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleCancelationToken.Application", "ExampleCancelationToken.Application\ExampleCancelationToken.Application.csproj", "{626D4653-69DC-40D3-B630-12C9FD21A755}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleCancelationToken.Domain", "ExampleCancelationToken.Domain\ExampleCancelationToken.Domain.csproj", "{D1CA7890-BAB2-47CE-8511-DDE35504D5EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleCancelationToken.Infraextructura", "ExampleCancelationToken.Infraextructura\ExampleCancelationToken.Infraextructura.csproj", "{5ACD6AC2-92EC-45EC-A2F1-72EEB35A8AC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95E4AC06-0931-4E07-96AB-49F04473DB69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95E4AC06-0931-4E07-96AB-49F04473DB69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95E4AC06-0931-4E07-96AB-49F04473DB69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95E4AC06-0931-4E07-96AB-49F04473DB69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CDD2701-6597-4080-AE94-286FDBC8D056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CDD2701-6597-4080-AE94-286FDBC8D056}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CDD2701-6597-4080-AE94-286FDBC8D056}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CDD2701-6597-4080-AE94-286FDBC8D056}.Release|Any CPU.Build.0 = Release|Any CPU
+		{626D4653-69DC-40D3-B630-12C9FD21A755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{626D4653-69DC-40D3-B630-12C9FD21A755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{626D4653-69DC-40D3-B630-12C9FD21A755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{626D4653-69DC-40D3-B630-12C9FD21A755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1CA7890-BAB2-47CE-8511-DDE35504D5EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1CA7890-BAB2-47CE-8511-DDE35504D5EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1CA7890-BAB2-47CE-8511-DDE35504D5EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1CA7890-BAB2-47CE-8511-DDE35504D5EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ACD6AC2-92EC-45EC-A2F1-72EEB35A8AC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ACD6AC2-92EC-45EC-A2F1-72EEB35A8AC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ACD6AC2-92EC-45EC-A2F1-72EEB35A8AC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ACD6AC2-92EC-45EC-A2F1-72EEB35A8AC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{95E4AC06-0931-4E07-96AB-49F04473DB69} = {2545CFD1-5547-4AA3-A6F1-16D2EBB0058D}
+		{7CDD2701-6597-4080-AE94-286FDBC8D056} = {2545CFD1-5547-4AA3-A6F1-16D2EBB0058D}
+		{626D4653-69DC-40D3-B630-12C9FD21A755} = {A9B8CF04-F693-4505-A495-A142BD71F53C}
+		{D1CA7890-BAB2-47CE-8511-DDE35504D5EA} = {CA58F3D5-14FB-4E8C-A978-0B363A07AE0D}
+		{5ACD6AC2-92EC-45EC-A2F1-72EEB35A8AC0} = {370C2D8A-2173-4174-AA34-EB89ABB65863}
+	EndGlobalSection
+EndGlobal
